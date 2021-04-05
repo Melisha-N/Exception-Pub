@@ -7,11 +7,12 @@ public class PubTester {
 		try {
 			bouncer.check(12);
 		} catch (PubException e) {
-			System.out.println("INSIDE CATCH");
 			PubException excp = new PubException();
 			// excp.getMessage();
 			System.out.println(excp.getMessage());
 			System.out.println(excp.toString());
+			System.out.println("INSIDE CATCH");
+
 		}
 		
 	}

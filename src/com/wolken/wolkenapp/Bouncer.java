@@ -7,6 +7,7 @@ public class Bouncer {
 			System.out.println("Yeh!!!! You are in the PUB!!!!");
 		}
 		else {
+			System.out.println("Not welcome!!!");
 			throw new PubException();
 			/*
 			 * // we can also write this above line as: 
